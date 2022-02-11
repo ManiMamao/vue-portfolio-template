@@ -1,7 +1,7 @@
 {
   "main": {
     "name": {
-      "first": "Arr",
+      "first": "R.",
       "last": "Dee"
     },
     "movie": {
@@ -24,8 +24,8 @@
     }
   },
   "about": {
-    "bio": "I discovered oil painting while I was enlisted in the U.S. Air Force in Alaska in the early 1960s. I studied the 'wet-on-wet' technique, also known as 'Alla Prima', used by other great painters such as Rembrandt & Monet. This allowed me to produce complete paintings in less than an hour. I then became an art instructor, creating my iconic image and eventually teaching a TV audience of millions on the TV show The Joy of Painting.",
-    "tagline": "We don't make mistakes, just happy little accidents",
+    "bio": "Movies are my life, why bother and make a living from it? Anyways, a great crew convinced me to finally do this fantastic movie. This film is about a young Afro-Iranian boy from Khuzestan province, in the south of Iran, during the Iran–Iraq War. His parents are killed in a bombing raid on his home village and he escapes on a cargo truck to a very different region in the Caspian north of the country.",
+    "tagline": "Khaste nabâshid",
     "facts": [
       { "name": "Cast", "value": "Ali Daei | Ali Karimi | Jochen Vogel" },
       { "name": "Art Director", "value": "R.D." },
@@ -195,9 +195,9 @@
     "formTitle": "Send us A Message",
     "formEndPoint": "",
     "city": "Barcelona, Spain",
-    "email": "info@bobross.com",
-    "phone": "1-800-BOB-ROSS",
-    "resumeLink": "https://www.twoinchbrush.com/all-paintings",
+    "email": "info@greatmovie",
+    "phone": "1-800-R-D",
+    "resumeLink": "https://fogodechao.com.br/menu/carnes",
     "form": true,
 
     "social": [
