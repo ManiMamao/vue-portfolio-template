@@ -2,14 +2,11 @@
   <footer class="footer section-dark font-small text-center">
     <ul class="list-inline">
       <li class="list-inline-item">
-        <a class="nav-item nav-link active" href="#">
-          Home
-        </a>
+        <a class="nav-item nav-link active" href="#"> Home </a>
       </li>
-      <li class="list-inline-item">
-        <a class="nav-item nav-link" href="#about">About</a>
-      </li>
-      <li class="list-inline-item">
+      <li class="list-inline-item"><a class="nav-item nav-link" href="#about">Release</a></li>
+      <li class="list-inline-item"><a class="nav-item nav-link" href="#rental">Rental</a></li>
+      <!-- <li class="list-inline-item">
         <a class="nav-item nav-link" href="#skills">Skills</a>
       </li>
       <li class="list-inline-item">
@@ -17,7 +14,7 @@
       </li>
       <li class="list-inline-item">
         <a class="nav-item nav-link" href="#contact">Contact</a>
-      </li>
+      </li> -->
     </ul>
 
     <ul class="list-inline">
@@ -34,20 +31,9 @@
 
     <div class="copyright">
       <p>
-        Copyright © {{ new Date().getFullYear() }}
-        {{ text.main.name.first }} {{ text.main.name.last  }}.
+        Copyright © {{ new Date().getFullYear() }} {{ text.main.name.first }}
+        {{ text.main.name.last }}.
         {{ text.footer.copyrightText }}
-      </p>
-    </div>
-    <div class="credit">
-      <p>
-        Designed with 👽 by
-        <a
-          id="username"
-          href="https://www.github.com/darnocer"
-          alt="Darian's Github"
-          >darnocer</a
-        >
       </p>
     </div>
   </footer>

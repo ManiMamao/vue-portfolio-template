@@ -2,6 +2,7 @@
   <div id="app">
     <Header />
     <About />
+    <Rental />
     <Skills />
     <Portfolio />
     <Contact />
@@ -12,6 +13,7 @@
 <script>
 import Header from "./Vue/pages/Header.vue";
 import About from "./Vue/pages/About.vue";
+import Rental from "./Vue/pages/Rental.vue"
 import Skills from "./Vue/pages/Skills.vue";
 import Portfolio from "./Vue/pages/Portfolio.vue";
 import Contact from "./Vue/pages/Contact.vue";
@@ -22,6 +24,7 @@ export default {
   components: {
     Header,
     About,
+    Rental,
     Skills,
     Portfolio,
     Contact,

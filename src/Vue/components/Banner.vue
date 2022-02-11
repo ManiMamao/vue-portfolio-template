@@ -1,7 +1,7 @@
 <template>
   <div class="banner">
     <div class="banner-text">
-      <h1 class="display-text">{{ name.first }} {{ name.last }}</h1>
+      <h1 class="display-text">{{ movie.first }} {{ movie.last }}</h1>
       <h2 id="typewriter"></h2>
     </div>
   </div>
@@ -18,6 +18,7 @@ export default {
   data() {
     return {
       name: data.main.name,
+      movie: data.main.movie,
       titles: data.main.titles,
     };
   },
@@ -25,8 +26,8 @@ export default {
     new Typewriter("#typewriter", {
       strings: titles,
       autoStart: true,
-      loop: true,
-      deleteSpeed: 5,
+      loop: false,
+      deleteSpeed: 5
     });
   },
 };
